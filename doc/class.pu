@@ -6,5 +6,4 @@ class fourArithmentOperations {
     + div(x,y)
 }
 
-
 @enduml
