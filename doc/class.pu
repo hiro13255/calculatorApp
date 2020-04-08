@@ -1,0 +1,10 @@
+@startuml
+class fourArithmentOperations {
+    + Add(x,y)
+    + Sub(x,y)
+    + Mul(x,y)
+    + div(x,y)
+}
+
+
+@enduml
