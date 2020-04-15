@@ -16,6 +16,16 @@ class BasicFunctionTest(unittest.TestCase):
     '''
     def test_sub(self):
         self.assertEqual(2, fourArithmeticOperations.FourArithmeticOperations().sub(6,4))
+    
+    '''
+        掛け算機能　単体テスト
+        作成者:Pro-doct
+    '''
+    def test_mult(self):
+        self.assertEqual(24, fourArithmeticOperations.FourArithmeticOperations().mult(6,4))
+    
+
+
 
 if __name__ == "__main__":
     unittest.main()
