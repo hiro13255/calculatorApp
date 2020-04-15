@@ -1,7 +1,8 @@
 import unittest
 import sys
 sys.path.append('../')
-from function import fourArithmeticOperations 
+# fourArithmeticOperations.py のimport を追加しました 編集者:Pro-doct
+from function import fourArithmeticOperations
 
 class BasicFunctionTest(unittest.TestCase):
     '''
@@ -9,6 +10,12 @@ class BasicFunctionTest(unittest.TestCase):
     '''
     def test_add(self):
         self.assertEqual(10, fourArithmeticOperations.FourArithmeticOperations().add(6, 4))
+    '''
+        引き算機能　単体テスト
+        作成者:Pro-doct
+    '''
+    def test_sub(self):
+        self.assertEqual(2, fourArithmeticOperations.FourArithmeticOperations().sub(6,4))
 
 if __name__ == "__main__":
     unittest.main()
