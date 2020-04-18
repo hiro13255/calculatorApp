@@ -47,9 +47,7 @@ class FourArithmeticOperations():
     戻り値：入力２つの値を割った結果
     作成者:Pro-doct
     '''
-    '''
     def div(self, x, y):
         result = x / y     # intで返すか、floatで返すか話し合いましょう :Pro-doct
-        print(result)
+        print(result)      # floatで渡すように変えてみました
         return result
-    '''
