@@ -1,0 +1,17 @@
+@startuml
+actor user
+
+participant main
+participant fourArithmeticOperations
+
+main --> user:１つ目の値を入力.
+user -> main:firstnumber
+main --> user:２つ目の値を入力.
+user -> main:secondnumber
+
+main -> fourArithmeticOperations:Add()
+main <-- fourArithmeticOperations
+user <-- main:計算結果
+
+
+@enduml
