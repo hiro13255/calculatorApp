@@ -30,6 +30,8 @@ class BasicFunctionTest(unittest.TestCase):
     '''
     def test_div(self):
         self.assertEqual(1.5, fourArithmeticOperations.FourArithmeticOperations().div(6,4))
+        # ゼロ割テストの追加
+        self.assertIsNone(fourArithmeticOperations.FourArithmeticOperations().div(1,0))
     
 
 

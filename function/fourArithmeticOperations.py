@@ -45,9 +45,11 @@ class FourArithmeticOperations():
     引数1：1つ目の値
     引数2：２つ目の値
     戻り値：入力２つの値を割った結果
-    作成者:Pro-doct
+    作成者:uji
     '''
     def div(self, x, y):
-        result = x / y     # intで返すか、floatで返すか話し合いましょう :Pro-doct
-        print(result)      # floatで渡すように変えてみました
+        if y == 0:
+            print("division by zero !")
+            return None
+        result = x / y
         return result
