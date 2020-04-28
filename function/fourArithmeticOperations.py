@@ -50,7 +50,6 @@ class FourArithmeticOperations():
     def div(self, x, y):
         if y == 0:
             print("division by zero !")
-            return
-        result = x / y     # intで返すか、floatで返すか話し合いましょう :Pro-doct
-        print(result)
+            return None
+        result = x / y
         return result

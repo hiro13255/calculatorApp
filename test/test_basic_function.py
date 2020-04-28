@@ -24,6 +24,15 @@ class BasicFunctionTest(unittest.TestCase):
     def test_mult(self):
         self.assertEqual(24, fourArithmeticOperations.FourArithmeticOperations().mult(6,4))
     
+    '''
+        割り算機能　単体テスト
+        作成者:Pro-doct
+    '''
+    def test_div(self):
+        self.assertEqual(1.5, fourArithmeticOperations.FourArithmeticOperations().div(6,4))
+        # ゼロ割テストの追加
+        self.assertIsNone(fourArithmeticOperations.FourArithmeticOperations().div(1,0))
+    
 
 
 
