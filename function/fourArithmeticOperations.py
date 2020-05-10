@@ -16,7 +16,7 @@ class FourArithmeticOperations():
 
     def add(self, x, y):
         result = x + y
-        print(str(x) + " ÷ " + str(y) + " = " + str(result))
+        print(str(x) + " + " + str(y) + " = " + str(result))
         return result
 
     '''
