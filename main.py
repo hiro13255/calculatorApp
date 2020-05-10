@@ -6,7 +6,7 @@ if __name__ == "__main__":
     # 入力をfloatにして、割り算追加してみました　:uji
     while True:
         print("=" * 40)
-        menu = input("Top画面\n 0:終了 1:まとめて四則演算 2:式入力") 
+        menu = input("Top画面\n 0:終了 1:まとめて四則演算 2:式入力")
 
         if menu == "0":
             break
